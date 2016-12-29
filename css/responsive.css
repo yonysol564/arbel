@@ -1,0 +1,698 @@
+
+
+@media screen and (min-width: 40em) {
+    body.pageLoaded .top-bar {
+        display: block;
+    }
+
+    .title-bar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    nav ul li a {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    nav ul li a {
+        font-size: 1.1rem;
+    }
+
+    nav ul {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .breadcrumbs_div{
+     bottom: 0;
+    }   
+}
+
+
+@media screen and (max-width: 1024px) {
+    .socials_col {
+        display: none;
+    }
+
+    .cat_row .bottom_col {
+        top: auto;
+        left: auto;
+    }
+
+/*===========================================================================================
+ ===========================       H  O  M  E  P  A  G  E       ============================
+=============================================================================================*/
+
+    .play_div {
+        position: relative;
+        top: auto;
+        right: auto;
+        left: auto;
+    }
+
+    .logos_row .wrap_img {
+        width: 16.666666%;
+    }
+
+    .boxes_sec .box_col,
+    .events_sec .boxes_sec .box_col {
+        width: 25%;
+    }
+
+    /*======================================================================
+ =====================      A B O U T     ====================
+=======================================================================*/
+
+
+
+    /*=======================================================================
+ ===================    C O N T A C T   =====================
+=========================================================================*/
+
+
+    /*=======================================================================
+ ===================     F O O T E R    =====================
+=========================================================================*/
+}
+
+@media screen and (max-width: 900px) {
+    .logos_row .wrap_img {
+        width: 25%;
+    }
+
+    .boxes_sec .box_col,
+    .events_sec .boxes_sec .box_col {
+        width: 33.333333%;
+    }
+
+    .breadcrumbs_div{
+        bottom: -20px;
+    }
+}
+
+
+
+@media screen and (max-width: 640px) {
+    .desktop_only {
+        display: none;
+    }
+
+    .mobile_only {
+        display: block;
+    }
+
+    .inner_wrapper {
+        padding-top: 84px;
+    }
+
+    .title-bar {
+        padding: 0;
+        padding-right: 10px;
+        padding-left: 12px;
+        background: transparent !important;
+    }
+
+    header {
+        line-height: 84px;
+        min-height: 84px;
+    }
+
+    .logo_wrap a img {
+        max-width: 160px;
+    }
+
+    .top-bar {
+        background-color: #265eab;
+    }
+
+    .menu_div {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+    }
+
+    .menu_col {
+        border-top: 1px solid #23409b;
+    }
+
+    .logo_wrap_mobile {
+        float: right;
+    }
+
+    .title-bar .menu-icon {
+        float: left;
+        margin-top: 35px;
+    }
+
+    .menu-icon:hover:after {
+        background: #fff;
+        box-shadow: 0 7px 0 #fff, 0 14px 0 #fff;
+    }
+
+    .inner_phone {
+        float: left;
+    }
+
+    .inner_socials {
+        line-height: 40px;
+        padding: 10px 0;
+        text-align: center;
+        border-top: 1px solid #23409b;
+    }
+
+    .social_img {
+        margin: 0 5px;
+    }
+
+    .inner_phone .wrap_phone {
+        margin-left: 20px;
+        padding-top: 30px;
+    }
+
+    .mob_wrap_socials .inner_socials {
+        line-height: 40px;
+        float: right;
+        height: 40px;
+    }
+
+    .mob_wrap_socials .inner_phone {
+        float: left;
+    }
+
+    .mob_wrap_socials .inner_phone .wrap_phone {
+        padding-top: 0;
+    }
+
+    .mob_wrap_socials {
+        padding-top: 13px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    nav ul li {
+        line-height: 2.2rem;
+        display: block;
+    }
+
+    nav ul li:hover {
+        background: none;
+    }
+
+    nav ul li:hover a,
+    nav ul li a:focus {
+        color: #fff;
+    }
+
+    nav ul li a {
+        font-size: 1.1rem;
+        min-height: auto;
+        padding-top: 0;
+    }
+
+    nav ul li .sub-menu {
+        position: relative;
+        display: block;
+        height: auto;
+        text-align: right;
+        background: none;
+        display: none;
+    }
+
+    nav ul li:hover .sub-menu{
+        display: none;
+    }
+
+    nav ul li.menu-item-has-children{
+        position: relative;
+    }
+
+    nav ul li.menu-item-has-children a{
+        display: inline-block;
+        color: #fff;
+    }
+    
+
+    nav ul li.menu-item-has-children:after{
+        content: "\f107";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+        font-size: 18px;
+        padding-right: 0.5em;
+        position: absolute;
+        top: 2px;
+        left: 0;
+        font-size: 1.4rem;
+        color: #fff;
+    }
+
+    nav ul li:hover, 
+    nav ul li.current-menu-item, 
+    nav ul li:focus, 
+    nav ul li:visited{
+        background: none;
+    }
+
+     nav ul li.current-menu-item a{
+        color: #cbdb2a;
+        font-weight:700;
+     }
+
+
+    nav ul li.menu-item-has-children.changed:after{
+        -moz-transform: scaleY(-1);
+        -o-transform: scaleY(-1);
+        -webkit-transform: scaleY(-1);
+        transform: scaleY(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";  
+    }
+/*
+    nav ul li.menu-item-has-children.changed .sub-menu{
+        display: block;
+    }*/
+
+
+    nav ul li .sub-menu li {
+        line-height: 1.5rem;
+        padding-right: 20px;
+    }
+
+    nav ul li .sub-menu li:before {
+        right: 10px;
+    }
+
+    nav ul li .sub-menu li:hover a{
+        color: #fff;
+    }
+
+    nav ul li .sub-menu li a {
+        font-size: 1.0rem;
+        color: #fff;
+    }
+
+    .page_banner {
+        min-height: 410px;
+    }
+
+    .page_banner .wrap_title {
+        right: 0;
+        width: 100%;
+    }
+
+    .page_banner h1 {
+        font-size: 2.4rem;
+        text-align: center;
+    }
+
+    .breadcrumbs_div {
+        bottom: -40px;
+    }
+
+    /*=======================================================================
+     ===================   H  O  M  E  P  A  G  E   =====================
+    =========================================================================*/
+
+    .inner_home_banner {
+        min-height: 480px;
+    }
+
+    .home_slider {
+        margin-bottom: 40px;
+    }
+
+    .main_sec h2 {
+        font-size: 1.3rem;
+        margin-bottom: 36px;
+    }
+
+    .main_sec .wrap_con p {
+        font-size: 1.1rem;
+    }
+
+    .main_sec .wrap_con {
+        margin-bottom: 20px;
+    }
+
+
+    .play_div {
+        top: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .logos_row .wrap_img {
+        width: 33.33333%;
+    }
+
+    .wrap_logos {
+        /*margin-top: 30px;*/
+    }
+
+    .wrap_logos .logos_title{
+        margin-top: 30px;
+        margin-bottom:30px;
+    }
+
+
+    .boxes_sec .box_col,
+    .events_sec .boxes_sec .box_col {
+        width: 50%;
+    }
+
+    .wrap_form .wrap_input {
+        margin-bottom: 10px;
+    }
+
+    .home_wrap .contact_sec h2 {
+        font-size: 1.4rem;
+    }
+
+    .wrap_form input[type='text'],
+    .wrap_form input[type='email'] {
+        font-size: 1.1rem;
+        line-height: 40px;
+        height: 40px;
+    }
+
+    .wrap_form textarea {
+        font-size: 1.1rem;
+        height: 145px;
+    }
+
+    .contact_sec .pad_left {
+        padding-left: .625rem;
+    }
+
+    .contact_sec .pad_right {
+        padding-right: .625rem;
+    }
+
+    .wrap_form .wrap-submit {
+        margin-top: 20px;
+    }
+
+    .wrap_form span.label_text {
+        font-size: 1.1rem;
+    }
+
+    .wrap_form input[type='submit'] {
+        line-height: 50px;
+        height: 50px;
+    }
+
+    .boxes_sec .box_col:hover .abs_div{
+        display: none;
+    }
+
+    .home_gallery .box_col .abs_div_mobile{
+        position: absolute;
+        display: block;
+        width: 95%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        padding: 10px 30px;
+        background-color: #cbdb2a;
+        text-align: center;
+    }
+
+    .boxes_sec .box_col a{
+        height: 254px;
+        display: block;
+    }
+
+
+
+    /*======================================================================
+     =================       C O N T A C T     ===================
+    =======================================================================*/
+
+    .page_contact_sec h2,
+    .about_sec h2,
+    .customer_sec h2,
+    .category_sec h2,
+    .single_sec h3,
+    .single_sec h2,
+    .services_sec h2 {
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+    }
+
+    .page_contact_sec .wrap_con p,
+    .about_sec .wrap_con p,
+    .customer_sec .wrap_con p,
+    .category_sec .wrap_con p,
+    .services_sec .wrap_con p,
+    .single_sec .single_desc p,
+    .wrap_con ul li {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+
+    .page_contact_sec .wrap_address .wrap_con_info {
+        display: block;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .page_contact_sec .wrap_address .wrap_con_info span,
+    .page_contact_sec .wrap_address .wrap_con_info a {
+        font-size: 1.2rem;
+    }
+
+    .page_contact_sec .wrap_address {
+        margin-bottom: 0;
+    }
+
+    .page_contact_sec .wrap_form input[type='text'],
+    .page_contact_sec .wrap_form input[type='email'],
+    .wrap_form input[type='submit'] {
+        line-height: 50px;
+        height: 50px;
+    }
+
+    .page_contact_sec .wrap_form .wrap_input {
+        margin-bottom: 10px;
+    }
+
+    .page_contact_sec .wrap_form textarea {
+        height: 170px;
+    }
+
+    .page_contact_sec .abs_cir {
+        background-size: contain;
+    }
+
+
+    .page-id-86 footer {
+        margin-top: 500px;
+    }
+
+
+/*======================================================================
+ =================         A B O U T    ===================
+=======================================================================*/
+
+
+    .wrap_con ul li {
+        width: 100%;
+    }
+
+
+/*======================================================================
+ =================          C U S T O M E R S    ===================
+=======================================================================*/
+
+    .customer_sec {
+        background-image: none;
+    }
+
+    .customer_sec .wrap_con {
+        margin-bottom: 30px;
+    }
+
+    .customer_sec .cust_col .hover_state{
+        display: block;
+    }
+
+    .hover_state_pos .wrap_img{
+        display: none !important;
+    }
+
+    .customer_sec .hover_state_pos .customer_box{
+        background-color: #cbdb2a;
+        padding: 0 30px;
+    }
+
+
+/*    .customer_box .wrap_img{
+        display: none !important;
+    }
+*/
+
+/*======================================================================
+ =================       C A T E G O R Y    ===================
+=======================================================================*/
+
+    .category_sec .bag_to_you,
+    .single_sec .bag_to_you {
+        font-size: 1.5rem;
+    }
+
+    .wrap_single .contact_sec,
+    .category_wrap .contact_sec,
+    .customer_sec .contact_sec,
+    .events_wrap .contact_sec,
+    .wrap_single .contact_sec {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .category_sec .cat_col:hover .hover_state{
+        display: none;
+    }
+    
+    .hover_state_mobile{
+        position: absolute;
+        display: block;
+        width: 100%;
+        bottom: 0;
+        padding: 10px 30px;
+        background-color: #cbdb2a;
+    }
+
+    .hover_state_mobile h4{
+        color: #42423f;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    
+    .events_sec .boxes_sec .box_col:hover .abs_div {
+        display: none;
+    }
+
+    .box_col .abs_div_mobile{
+        position: absolute;
+        display: block;
+        width: 100%;
+        bottom: 0;
+        padding: 10px 30px;
+        background-color: #cbdb2a;
+        text-align: center;
+    }
+
+    .box_col .abs_div_mobile .top_div{
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .events_sec .boxes_sec .box_col a{
+        display: block;
+        height: 230px;
+    }
+
+    
+
+
+
+/*======================================================================
+ =================       S E R V I C E S   ===================
+=======================================================================*/
+
+    .cat_row .bottom_col {
+        top: auto;
+        left: auto;
+    }
+
+
+    .col_single_img {
+        margin-bottom: 15px;
+    }
+
+/*=======================================================================
+ ===================  F O O T E R =====================
+=========================================================================*/
+
+    footer {
+        min-height: 340px;
+        background-size: cover;
+    }
+
+    .top_footer ul li a {
+        font-size: 1.0rem;
+        padding: 0px 6px;
+    }
+
+    .footer_wrap_phone .number,
+    .footer_wrap_phone .col_now {
+        font-size: 1.1rem;
+        line-height: 1.4rem;
+    }
+
+    .footer_wrap_phone .wrap_img_phone img{
+        width: 26px;
+        margin-top: 3px;
+    }
+
+    .top_footer {
+        padding-top: 80px;
+    }
+
+    .wrap_social_footer {
+        margin-top: 20px;
+    }
+
+    .wrap_social_footer a img{
+        max-width: 50px;
+    }
+
+    .footer_wrap_phone .wrap_phone {
+        padding-top: 20px;
+    }
+
+    .bottom_footer {
+        line-height: 38px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        min-height: 66px;
+    }
+
+    .bottom_footer .footer_copy,
+    .bottom_footer .footer_extra {
+        text-align: center;
+    }
+
+    .bottom_footer .footer_extra{
+        padding-bottom: 10px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .logos_row .wrap_img {
+        width: 50%;
+    }
+
+    .boxes_sec .box_col,
+    .events_sec .boxes_sec .box_col {
+        width: 50%;
+        min-height: 160px;
+    }
+
+    .breadcrumbs {
+        margin-bottom: 0;
+    }
+}
